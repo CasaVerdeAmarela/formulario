@@ -389,7 +389,7 @@ form span{
   }
   .home-text p{
     position: relative;
-    left: 5px;
+    left: 0;
     width: 250px;
   }
   .about{
@@ -421,7 +421,8 @@ form span{
    text-transform: uppercase;
  }
  .why{
-  position: relative;
+   position: relative;
+   left: 0;
    width: 350px;
    background-color: #FAC213;
  }
@@ -434,6 +435,13 @@ form span{
   width: 300px;
   left: 15%;
   top: 60px;
+}
+.login img{
+    display: none;
+}
+.botton input{
+    position: relative;
+    bottom: 15px;
 }
 .texto h2{
   color:#fff;
